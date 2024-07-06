@@ -62,6 +62,7 @@ ul {
 }
 #intro-box p {
     width: 700px;
+    flex-grow: 2;
 }
 #casual-box {
     display: flexbox;
@@ -76,10 +77,11 @@ ul {
 }
 
 #logo {
-    transform: scale(0.7);
+    transform: scale(0.9);
 }
 #selfie {
     transform: scale(0.7);
+    flex-shrink: 2;
 }
 #c-m-3 {
     transform: scale(0.75);
