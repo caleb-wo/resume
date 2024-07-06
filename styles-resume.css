@@ -31,3 +31,27 @@ footer {
 footer .social img {
     padding-top: 15px;
 }
+
+#cloud-para {
+    width: 100%
+}
+.intext-title{
+    color: #033f63;
+    font-weight: bold;
+}
+.intext {
+   color: #033f63; 
+}
+
+#intro-box {
+    display: flexbox;
+    justify-content: space-around;
+    background-color: #46B1C9;
+    color: #033f63;
+}
+#casual-box {
+    display: flexbox;
+    justify-content: space-around;
+    background-color: #46B1C9;
+    color: #033f63;
+}
