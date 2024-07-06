@@ -48,6 +48,7 @@ ul {
 
 #intro-box {
     display: flexbox;
+    flex-flow: row;
     justify-content: space-around;
     background-color: #46B1C9;
     color: #033f63;
@@ -57,6 +58,7 @@ ul {
 }
 #casual-box {
     display: flexbox;
+    flex-flow: row;
     justify-content: space-around;
     background-color: #46B1C9;
     color: #033f63;
@@ -69,7 +71,7 @@ ul {
     transform: scale(0.7);
 }
 #selfie {
-    transform: scale(0.5);
+    transform: scale(0.3);
 }
 #c-m-3 {
     transform: scale(0.75);
