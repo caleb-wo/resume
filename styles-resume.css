@@ -1,0 +1,33 @@
+/* Home Page */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #46B1C9;
+}
+nav a {
+    text-align: center;
+    color: #033f63;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #84C0C6
+}
+#cw-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer {
+    background-color: #46B1C9; 
+    color: #033f63;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
