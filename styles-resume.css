@@ -35,6 +35,9 @@ footer .social img {
 #cloud-para {
     width: 100%
 }
+ul {
+    text-align: center;
+}
 .intext-title{
     color: #033f63;
     font-weight: bold;
@@ -49,9 +52,13 @@ footer .social img {
     background-color: #46B1C9;
     color: #033f63;
 }
+#intro-box p {
+    width: 700px;
+}
 #casual-box {
     display: flexbox;
     justify-content: space-around;
     background-color: #46B1C9;
     color: #033f63;
 }
+
