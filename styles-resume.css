@@ -13,10 +13,7 @@ nav a {
 nav a:hover {
     background-color: #84C0C6
 }
-#cw-link {
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 footer {
     background-color: #46B1C9; 
@@ -82,8 +79,6 @@ ul {
 
 #logo {
     transform: scale(0.1);
-    margin-left: auto;
-    margin-right: auto;
 }
 #selfie {
     transform: scale(0.7);
