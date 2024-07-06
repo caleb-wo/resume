@@ -61,4 +61,17 @@ ul {
     background-color: #46B1C9;
     color: #033f63;
 }
+#casual-box p {
+    width: 700px;
+}
+
+#logo {
+    transform: scale(0.7);
+}
+#selfie {
+    transform: scale(0.5);
+}
+#c-m-3 {
+    transform: scale(0.75);
+}
 
