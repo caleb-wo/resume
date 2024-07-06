@@ -17,6 +17,8 @@ nav a:hover {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
@@ -34,6 +36,9 @@ footer .social img {
 
 #cloud-para {
     width: 100%
+}
+#cloud-para h1 {
+    text-align: center; 
 }
 ul {
     text-align: center;
@@ -71,9 +76,8 @@ ul {
     transform: scale(0.7);
 }
 #selfie {
-    transform: scale(0.3);
+    transform: scale(0.7);
 }
 #c-m-3 {
     transform: scale(0.75);
 }
-
