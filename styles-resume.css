@@ -54,6 +54,7 @@ ul {
 #intro-box {
     display: flexbox;
     flex-flow: row;
+    flex-wrap: nowrap;
     justify-content: space-around;
     background-color: #46B1C9;
     color: #033f63;
@@ -64,6 +65,7 @@ ul {
 #casual-box {
     display: flexbox;
     flex-flow: row;
+    flex-wrap: nowrap;
     justify-content: space-around;
     background-color: #46B1C9;
     color: #033f63;
@@ -81,3 +83,4 @@ ul {
 #c-m-3 {
     transform: scale(0.75);
 }
+
