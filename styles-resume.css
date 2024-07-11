@@ -92,21 +92,13 @@ ul {
 }
 
 /* Job Experience Accordion and Site */
-.accordion {
+div.scroll-container {
     background-color: #84C0C6;
-    color: #033f63;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-.panel {
-    padding: 0 18px;
-    background-color: #46B1C9;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
   }
