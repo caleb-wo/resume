@@ -92,6 +92,10 @@ ul {
 }
 
 /* Job Experience Accordion and Site */
+.small {
+    transform: 0.20;
+}
+
 div.scroll-container {
     background-color: #84C0C6;
     overflow: auto;
