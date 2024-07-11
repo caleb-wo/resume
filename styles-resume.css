@@ -93,7 +93,7 @@ ul {
 
 /* Job Experience Accordion and Site */
 .accordion {
-    background-color: #46B1C9;
+    background-color: #84C0C6;
     color: #033f63;
     cursor: pointer;
     padding: 18px;
@@ -105,7 +105,8 @@ ul {
 }
 .panel {
     padding: 0 18px;
-    background-color: #84C0C6;
-    display: none;
+    background-color: #46B1C9;
+    max-height: 0;
     overflow: hidden;
+    transition: max-height 0.2s ease-out;
   }
