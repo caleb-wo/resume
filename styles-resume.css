@@ -93,7 +93,7 @@ ul {
 
 /* Job Experience Accordion and Site */
 .small {
-    transform: 0.20;
+    transform: scale(0.20);
 }
 
 div.scroll-container {
