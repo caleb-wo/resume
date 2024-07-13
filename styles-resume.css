@@ -95,6 +95,8 @@ ul {
 .small {
     transform: scale(0.20);
     padding: 0%;
+    height: 600px;
+    width: 500px;
 }
 
 div.scroll-container {
