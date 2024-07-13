@@ -107,6 +107,8 @@ div.scroll-container {
   
   div.scroll-container img {
     padding: 10px;
+    border-width: 5px;
+    border-color: #033f63;
   }
 
   title {
