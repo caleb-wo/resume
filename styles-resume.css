@@ -91,7 +91,7 @@ ul {
     grid-row: 1/3;
 }
 
-/* Job Experience Accordion and Site */
+/* Job Experience Site */
 .small {
     transform: scale(0.20);
     padding: 0%;
@@ -107,4 +107,17 @@ div.scroll-container {
   
   div.scroll-container img {
     padding: 10px;
+  }
+
+  title {
+    text-align: center;
+  }
+
+  #job_details {
+    max-width: 100%;
+    background-color: #46B1C9;
+    border-top-width: 50px;
+    border-bottom-width: 50px;
+    border-color: white;
+    text-align: center;
   }
