@@ -99,6 +99,7 @@ ul {
 
 div.scroll-container {
     background-color: #84C0C6;
+    max-height: 650px;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
