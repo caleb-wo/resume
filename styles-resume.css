@@ -161,7 +161,7 @@ div.scroll-container {
   #hard-skill {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 150px 150px;
+    grid-template-rows: 150px;
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
@@ -173,7 +173,7 @@ div.scroll-container {
   #soft-skill {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 150px 150px;
+    grid-template-rows: 150px;
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
@@ -188,5 +188,5 @@ div.scroll-container {
 }
 #soft-info {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 1/2;
 }
