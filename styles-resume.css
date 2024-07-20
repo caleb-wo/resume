@@ -1,181 +1,73 @@
-/* Home Page */
-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #46B1C9;
-}
-nav a {
-    text-align: center;
-    color: #033f63;
-    text-decoration: none;
-    padding: 35px;
-}
-nav a:hover {
-    background-color: #84C0C6
-}
-footer {
-    background-color: #46B1C9; 
-    color: #033f63;
-    padding: 25px 50px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-footer .social img {
-    padding-top: 15px;
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles-resume.css">
+        <title>Caleb Wolfe | Skills</title>
+    </head>
+    <body>
+        <header>
+            <a id="cw-link" href="index.html">
+                <img src="logo-resume.png" alt="CW"> 
+            </a>
+        
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="experience.html">Job Experience</a>
+                <a href="...">Skills</a>
+            </nav>
+        </header>
+        <main>
 
-#cloud-para {
-    width: 100%
-}
-#cloud-para h1 {
-    text-align: center; 
-}
-ul {
-    text-align: center;
-    list-style-type: none;
-}
-.intext-title{
-    color: #033f63;
-    font-weight: bold;
-}
-.intext {
-   color: #033f63; 
-}
+              <div class="dropdown">
+                <span class="intext-title">Projects</span>
+                <div class="dropdown-content">
+                    <a class="intext" href="https://caleb-wo.github.io/WDD-130/">Dry Oar White Water Rafter Website</a>
+                    <a class="intext" href="https://caleb-wo.github.io/WDD-130/">More to come...</a>
+                </div>
+              </div>
 
-#intro-box {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 150px 150;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    background-color: #46B1C9;
-    color: #033f63;
-}
-#intro-box p {
-    grid-column: 1/2;
-    grid-row: 1/3;
-}
-#casual-box {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 150px 150;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    background-color: #46B1C9;
-    color: #033f63;
-}
-#casual-box p {
-    grid-column: 2/3;
-    grid-row: 1/3;
-}
+              <div id="hard-skill">
+                <img class="small" src="cloud-comp.jpg" alt="Cloud Computing Stock Image">
+                <div id="hard-info">
+                    <h1 class="intext-title">Technical Skills</h1>
+                    <ul class="intext">
+                        <li>Python</li>
+                        <li>HTML & CSS</li>
+                        <li>C#</li>
+                        <li>SQL</li>
+                        <li>More to come...</li>
+                    </ul>
+                </div>
+              </div>
 
-#logo {
-    transform: scale(0.1);
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-}
-#selfie {
-    transform: scale(0.7);
-    grid-column: 2/3;
-    grid-row: 1/3;
-}
-#c-m-3 {
-    transform: scale(0.75);
-    grid-column: 1/2;
-    grid-row: 1/3;
-}
+              <div id="soft-skill">
+                <img class="small" src="caleb-fam.jpg" alt="Picture of My Family">
+                <div id="soft-info">
+                    <h1 class="intext-title">Soft Skills</h1>
+                    <p class="intext">I work well and communicate with others. I have always enjoyed spending time to get to know others. In many different social environments, I successfully establish good relationships. As a result of my prior job experience, I am familiar with interacting with customers and individuals while representing my superiors. When I was on my religious mission and in prior job experiences, I have been called to lead others. I have led roughly 30 individuals at a time. I am good at inspiring others to be better and focusing a group to reach a specific goal or result.</p>
+                 </div>
+                </div>
 
-/* Job Experience Site */
-.small {
-    transform: scale(0.20);
-    padding: 0%;
-    height: 600px;
-    width: 500px;
-}
 
-div.scroll-container {
-    background-color: #84C0C6;
-    max-height: 650px;
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
-  }
-  
-  div.scroll-container img {
-    padding: 10px;
-    border-width: 5px;
-    border-color: #033f63;
-  }
-
-  title {
-    text-align: center;
-  }
-
-  #job_details {
-    max-width: 100%;
-    background-color: #46B1C9;
-    border-top-width: 50px;
-    border-bottom-width: 50px;
-    border-color: white;
-    text-align: center;
-  }
-
-  /* Skills Site */
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #46B1C9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  #hard-skill {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 150px 150px;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    background-color: #46B1C9;
-    color: #033f63;
-  }
-
-  #soft-skill {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 150px 150px;
-    justify-content: space-evenly;
-    justify-items: center;
-    align-content: space-evenly;
-    align-items: center;
-    background-color: #46B1C9;
-    color: #033f63;
-  }
-
-  #hard-info {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-#soft-info {
-    grid-column: 1/3;
-    grid-row: 2/3;
-}
+        </main>
+        <footer>
+            <p>Caleb Wolfe</p>
+            <p>camawolfe52@icloud.com</p>
+            <p>(909)641-6893</p>
+        
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="..." target="_blank">
+                    <img src="..." alt="LinkedIn Icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </body>
+    </html>
