@@ -100,7 +100,7 @@ ul {
 } */
 
 .small {
-    object-fit: scale-down;
+    object-fit: fill;
 }
 
 div.scroll-container {
