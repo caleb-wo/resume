@@ -125,3 +125,29 @@ div.scroll-container {
     border-color: white;
     text-align: center;
   }
+
+  /* Skills Site */
+
+  #hard-skill {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 150px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    background-color: #46B1C9;
+    color: #033f63;
+  }
+
+  #soft-skill {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 150px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    background-color: #46B1C9;
+    color: #033f63;
+  }
