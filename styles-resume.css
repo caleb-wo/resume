@@ -92,11 +92,15 @@ ul {
 }
 
 /* Job Experience Site */
-.small {
+/* .small {
     transform: scale(0.20);
     padding: 0%;
     height: 600px;
     width: 500px;
+} */
+
+.small {
+    object-fit: contain;
 }
 
 div.scroll-container {
