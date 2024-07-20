@@ -170,3 +170,12 @@ div.scroll-container {
     background-color: #46B1C9;
     color: #033f63;
   }
+
+  #hard-info {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#soft-info {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
