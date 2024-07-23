@@ -91,16 +91,6 @@ ul {
 }
 
 /* Job Experience Site */
-.small {
-    transform: scale(0.20);
-    padding: 0%;
-    height: 600px;
-    width: 500px;
-}
-
-.s-small {
-    transform: scale(0.50);
-}
 
 div.scroll-container {
     background-color: #84C0C6;
