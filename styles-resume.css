@@ -76,7 +76,6 @@ ul {
 }
 
 #logo {
-    transform: scale(0.1);
     margin-left: 0 auto;
     margin-right: 0 auto;
 }
@@ -100,10 +99,7 @@ ul {
 }
 
 .s-small {
-    transform: scale(0.40);
-    padding: 0%;
-    height: 600px;
-    width: 500px;
+    transform: scale(0.50);
 }
 
 div.scroll-container {
