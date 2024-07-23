@@ -76,9 +76,8 @@ ul {
 }
 
 #logo-container {
-    display: block;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 #selfie {
     transform: scale(0.7);
@@ -131,6 +130,7 @@ div.scroll-container {
     margin-right: auto;
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
   
   .dropdown-content {
