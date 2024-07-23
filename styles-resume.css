@@ -152,6 +152,8 @@ div.scroll-container {
   
   .dropdown:hover .dropdown-content {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #hard-skill {
