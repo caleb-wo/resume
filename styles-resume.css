@@ -1,4 +1,9 @@
 /* Home Page */
+:root {
+    --heading-font: Georgia, Times;
+    --paragraph-font: Verdana, Tahoma, Arial;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -39,9 +44,11 @@ ul {
 .intext-title{
     color: #033f63;
     font-weight: bold;
+    font-family: var(--heading-font);
 }
 .intext {
    color: #033f63; 
+   font-family: var(--paragraph-font);
 }
 
 #intro-box {
