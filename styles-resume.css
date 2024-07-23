@@ -129,6 +129,7 @@ div.scroll-container {
   /* Skills Site */
 
   .dropdown {
+    padding-top: 5px;
     display: block;
     position: relative;
     height: 50px;
